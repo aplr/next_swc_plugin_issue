@@ -1,4 +1,5 @@
-/** Add your relevant code here for the issue to reproduce */
+import { Now } from "./now";
+
 export default function Home() {
-  return null;
+  return <Now now={new Date()} data-superjson></Now>;
 }
